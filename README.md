@@ -1,8 +1,6 @@
 # ListParser
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/list_parser`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
+This simple gem parses a list of items based on various mappings and returns them in a hash
 
 ## Installation
 
@@ -16,7 +14,7 @@ If bundler is not being used to manage dependencies, install the gem by executin
 
 ## Usage
 
-TODO: Write usage instructions here
+For now see the test_list_parser.rb file in the test dir for sample code
 
 ## Development
 
