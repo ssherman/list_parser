@@ -14,8 +14,6 @@ Gem::Specification.new do |spec|
   spec.license = "MIT"
   spec.required_ruby_version = ">= 2.6.0"
 
-  spec.metadata["allowed_push_host"] = "TODO: Set to your gem server 'https://example.com'"
-
   spec.metadata["homepage_uri"] = spec.homepage
   spec.metadata["source_code_uri"] = "https://github.com/ssherman/list_parser"
   spec.metadata["changelog_uri"] = "https://github.com/ssherman/list_parser/blob/main/CHANGELOG.md"
@@ -32,8 +30,8 @@ Gem::Specification.new do |spec|
   spec.require_paths = ["lib"]
 
   # Uncomment to register a new dependency of your gem
-  spec.add_dependency "faraday", "~> 2.2.0"
-  spec.add_dependency "nokogiri", "~> 1.13.4"
+  spec.add_dependency "faraday", ">= 2.5.0"
+  spec.add_dependency "nokogiri", ">= 1.13.0"
   spec.add_development_dependency "rubocop-minitest"
   spec.add_development_dependency "rubocop-rake"
 
